@@ -1,0 +1,6 @@
+-t: Display TCP connections.
+-u: Display UDP connections (you can remove this if you only want TCP).
+-l: Show only listening sockets.
+-n: Show numerical addresses instead of resolving hostnames.
+-6: Display IPv6 connections.
+grep 'LISTEN': Filter lines that contain "LISTEN," which indicates listening sockets.
